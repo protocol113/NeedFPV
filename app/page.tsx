@@ -149,10 +149,10 @@ export default function Component() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8">About Need FPV</h2>
             <p className="text-lg mb-4">
-              Welcome to <strong>Need FPV</strong>! I'm <strong>Justin</strong>, a dedicated FPV (First Person View) drone enthusiast with years of hands-on experience. What began as a passion for flying drones has evolved into a mission to explore how FPV technology can be applied to solve complex challenges in various environments, from remote operations to highly constrained communication scenarios.
+              Welcome to <strong>Need FPV</strong>! I&apos;m <strong>Justin</strong>, a dedicated FPV (First Person View) drone enthusiast with years of hands-on experience. What began as a passion for flying drones has evolved into a mission to explore how FPV technology can be applied to solve complex challenges in various environments, from remote operations to highly constrained communication scenarios.
             </p>
             <p className="text-lg mb-4">
-              In today's fast-paced world, where speed, agility, and real-time data are essential, FPV technology offers unmatched capabilities. Whether it's gathering critical insights in hard-to-reach areas or improving operational efficiency through immersive experiences, FPV drones can significantly enhance situational awareness and decision-making.
+              In today&apos;s fast-paced world, where speed, agility, and real-time data are essential, FPV technology offers unmatched capabilities. Whether it&apos;s gathering critical insights in hard-to-reach areas or improving operational efficiency through immersive experiences, FPV drones can significantly enhance situational awareness and decision-making.
             </p>
           </div>
         </section>
