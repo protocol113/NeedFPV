@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useRef, useState, ChangeEvent } from 'react'
+import React, { useEffect, useRef, useState, ChangeEvent, FormEvent } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
@@ -14,6 +14,12 @@ export default function Component() {
   const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prevState => ({ ...prevState, [name]: value }));
+  };
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const { name, email, message } = formData;
+    const mailtoLink = `mailto:justin@needfpv.com?subject=Contact from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    window.location.href = mailtoLink;
   };
 
   useEffect(() => {
@@ -274,16 +280,16 @@ export default function Component() {
         </div>
       </div>
       <div ref={contactFormRef} className="p-4 rounded-lg">
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <Input 
-            type="text" 
-            name="name"
-            value={formData.name}
-            onChange={handleInputChange}
-            placeholder="Your Name" 
-            className="bg-gray-800 border-gray-700 text-white rounded-md w-full"
-            required
-          />
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <Input 
+          type="text" 
+          name="name"
+          value={formData.name}
+          onChange={handleInputChange}
+          placeholder="Your Name" 
+          className="bg-gray-800 border-gray-700 text-white rounded-md w-full"
+          required
+        />
           <Input 
             type="email" 
             name="email"
@@ -301,11 +307,11 @@ export default function Component() {
             className="bg-gray-800 border-gray-700 text-white rounded-md w-full h-32"
             required
           />
-          <Button type="submit" className="bg-orange-500 hover:bg-orange-600 text-white rounded-md px-4 py-2">
-            Send Message
-          </Button>
-        </form>
-      </div>
+        <Button type="submit" className="bg-orange-500 hover:bg-orange-600 text-white rounded-md px-4 py-2">
+          Send Message
+        </Button>
+      </form>
+    </div>
     </div>
   </div>
 </section>
