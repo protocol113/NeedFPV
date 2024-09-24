@@ -165,12 +165,12 @@ export default function Component() {
                 <p>FPV drones provide live visual feedback, offering near-instantaneous reconnaissance without the need for robust network infrastructures.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-2">On-Device Processing</h3>
-                <p>With edge computing capabilities, FPV systems can process and interpret data on the fly, reducing latency and enabling quick reactions in dynamic situations.</p>
+                <h3 className="text-xl font-semibold mb-2">Onboard Data Collection and Transmission</h3>
+                <p>FPV systems excel at capturing and transmitting real-time video feeds with low latency, providing immediate situational awareness. FPV drones are often custom-built and can be equipped with a variety of additional payloads and sensors, allowing for enhanced data collection and flexibility.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-2">Improved Spatial Awareness</h3>
-                <p>FPV drones allow for in-depth terrain analysis, route optimization, and heightened awareness of surroundings, all critical for planning and rapid response.</p>
+                <h3 className="text-xl font-semibold mb-2">Enhanced Spatial Awareness</h3>
+                <p>FPV drones can navigate virtually any environment, giving skilled pilots the ability to survey difficult-to-reach areas, analyze terrain, and optimize routes—critical for operational planning and rapid response.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Adaptable and Scalable</h3>
