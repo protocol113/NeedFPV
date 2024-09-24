@@ -24,6 +24,7 @@ export default function Component() {
   };
 
   useEffect(() => {
+    const currentRef = contactFormRef.current;
     const handleScroll = (e: Event) => {
       e.preventDefault()
       const target = e.target as HTMLAnchorElement
@@ -67,6 +68,9 @@ export default function Component() {
       })
       if (contactFormRef.current) {
         observer.unobserve(contactFormRef.current)
+      }
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     }
   }, [])
@@ -231,23 +235,23 @@ export default function Component() {
             <h2 className="text-3xl font-bold mb-8 text-white">Testimonials</h2>
             <div className="space-y-8">
               <div>
-                <blockquote className="italic text-xl mb-4 text-white">
-                  "Justin is one of the most friendly and intelligent people I have ever worked with. He truly loves to share his knowledge and time generously. He is an excellent drone pilot and planner, and the passion he has for those things radiates from him."
-                </blockquote>
+              <blockquote className="italic text-xl mb-4 text-white">
+                &quot;Justin is one of the most friendly and intelligent people I have ever worked with. He truly loves to share his knowledge and time generously. He is an excellent drone pilot and planner, and the passion he has for those things radiates from him.&quot;
+              </blockquote>
                 <p className="text-orange-500 font-semibold">— Preston Williams</p>
                 <p className="text-gray-400">Nuclear Machinists Mate and instructor, Naval Nuclear Propulsion Training Command</p>
-              </div>
+                </div>
               <div>
-                <blockquote className="italic text-xl mb-4 text-white">
-                  "Justin's work ethic, safety consciousness, and willingness to go the extra mile made him an excellent addition to our team. I would not hesitate to work with him again in the future."
-                </blockquote>
+              <blockquote className="italic text-xl mb-4 text-white">
+                &quot;Justin&apos;s work ethic, safety consciousness, and willingness to go the extra mile made him an excellent addition to our team. I would not hesitate to work with him again in the future.&quot;
+              </blockquote>
                 <p className="text-orange-500 font-semibold">— Katie Pickup</p>
                 <p className="text-gray-400">Event Coordinator, The Drone Racing League</p>
               </div>
               <div>
-                <blockquote className="italic text-xl mb-4 text-white">
-                  "I would like to extend my deepest gratitude to Justin Burnett for his outstanding work and for being an invaluable asset to our team here at The Drone Racing League during our live audience events. In the high-performance event of live drone racing with the world's greatest pilots and the largest drone racing franchise, he demonstrated a remarkable work ethic and unwavering dedication to his duties as a drone runner."
-                </blockquote>
+              <blockquote className="italic text-xl mb-4 text-white">
+                &quot;I would like to extend my deepest gratitude to Justin Burnett for his outstanding work and for being an invaluable asset to our team here at The Drone Racing League during our live audience events. In the high-performance event of live drone racing with the world&apos;s greatest pilots and the largest drone racing franchise, he demonstrated a remarkable work ethic and unwavering dedication to his duties as a drone runner.&quot;
+              </blockquote>
                 <p className="text-orange-500 font-semibold">— David Ye</p>
                 <p className="text-gray-400">Director of Hardware Engineering, The Drone Racing League</p>
               </div>
