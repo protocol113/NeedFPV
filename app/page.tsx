@@ -133,7 +133,7 @@ export default function Component() {
           </video>
           <div className="container mx-auto px-4 relative z-10">
             <h1 className="text-6xl font-bold text-orange-500 mb-4">
-              Unlock New Horizons with FPV Expertise
+            Harness the Power of Drones for Cutting-Edge Solutions
             </h1>
             <p className="text-2xl mb-8">
               Transforming Hobbyist Passion into Real-World Solutions
@@ -158,23 +158,23 @@ export default function Component() {
 
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8">How FPV Can Drive Innovation</h2>
+            <h2 className="text-3xl font-bold mb-8">How Our Technology Can Drive Innovation</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Real-Time Data Acquisition</h3>
-                <p>FPV drones provide live visual feedback, offering near-instantaneous reconnaissance without the need for robust network infrastructures.</p>
+                <p>Drones provide live visual feedback, enabling near-instantaneous reconnaissance without relying on complex network infrastructures.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Onboard Data Collection and Transmission</h3>
-                <p>FPV systems excel at capturing and transmitting real-time video feeds with low latency, providing immediate situational awareness. FPV drones are often custom-built and can be equipped with a variety of additional payloads and sensors, allowing for enhanced data collection and flexibility.</p>
+                <p>Drones capture and transmit real-time data with low latency, providing immediate situational awareness. While most processing occurs externally, these drones can be customized with additional sensors and payloads to meet mission-specific needs.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Enhanced Spatial Awareness</h3>
-                <p>FPV drones can navigate virtually any environment, giving skilled pilots the ability to survey difficult-to-reach areas, analyze terrain, and optimize routes—critical for operational planning and rapid response.</p>
+                <p>Our pilots can navigate virtually any environment, enabling the ability to survey difficult-to-reach areas, analyze terrain, and optimize routes—critical for operational planning and rapid response.</p>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-2">Adaptable and Scalable</h3>
-                <p>FPV solutions are flexible, capable of integrating with a wide range of platforms and devices, ensuring seamless compatibility across various systems.</p>
+                <p>Our drone solutions are flexible, capable of integrating with a wide range of platforms and devices, ensuring seamless compatibility across various systems.</p>
               </div>
             </div>
           </div>
@@ -186,15 +186,15 @@ export default function Component() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-black p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Consultation and Training</h3>
-                <p>Expert guidance on integrating FPV technology into your operations, including personalized training.</p>
+                <p>Expert consultation and training for integrating drones into your operations, tailored to your specific needs.”</p>
               </div>
               <div className="bg-black p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Custom FPV Solutions</h3>
-                <p>Tailored FPV setups to meet your unique needs, ensuring smooth deployment in any environment.</p>
+                <p>Custom-built drone solutions to meet unique requirements, ensuring seamless deployment across various environments.</p>
               </div>
               <div className="bg-black p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Demonstrations and Workshops</h3>
-                <p>Experience the power of FPV drones firsthand with live demonstrations and workshops.</p>
+                <p>Experience the remarkable capabilities of drone technology through live demonstrations and hands-on workshops.</p>
               </div>
             </div>
           </div>
@@ -207,15 +207,15 @@ export default function Component() {
               <li className="flex items-start">
                 <CheckIcon className="h-6 w-6 text-orange-500 mr-2 mt-1" />
                 <div>
-                  <strong className="text-lg">Unmatched FPV Expertise:</strong>
-                  <p>Years of experience building, flying, and optimizing FPV drones.</p>
+                  <strong className="text-lg">Unmatched Expertise:</strong>
+                  <p>Years of experience building, flying, and optimizing drones.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <CheckIcon className="h-6 w-6 text-orange-500 mr-2 mt-1" />
                 <div>
                   <strong className="text-lg">Real-World Applications:</strong>
-                  <p>Expertise in applying FPV technology to solve complex challenges.</p>
+                  <p>Expertise in applying drone technology to tackle complex challenges.</p>
                 </div>
               </li>
               <li className="flex items-start">
