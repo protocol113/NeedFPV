@@ -151,7 +151,7 @@ export default function Component() {
               Welcome to <strong>Need FPV</strong>! I&apos;m <strong>Justin</strong>, a dedicated FPV (First Person View) drone enthusiast with years of hands-on experience. What began as a passion for flying drones has evolved into a mission to explore how FPV technology can be applied to solve complex challenges in various environments, from remote operations to highly constrained communication scenarios.
             </p>
             <p className="text-lg mb-4">
-              In today&apos;s fast-paced world, where speed, agility, and real-time data are essential, FPV technology offers unmatched capabilities. Whether it&apos;s gathering critical insights in hard-to-reach areas or improving operational efficiency through immersive experiences, FPV drones can significantly enhance situational awareness and decision-making.
+              In today&apos;s fast-paced world, where speed, agility, and real-time data are essential, FPV technology offers unmatched capabilities. Whether it&apos;s gathering critical insights in hard-to-reach areas or improving operational efficiency through immersive experiences, our drones can significantly enhance situational awareness and decision-making.
             </p>
           </div>
         </section>
@@ -186,7 +186,7 @@ export default function Component() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-black p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Consultation and Training</h3>
-                <p>Expert consultation and training for integrating drones into your operations, tailored to your specific needs.”</p>
+                <p>Expert consultation and training for integrating drones into your operations, tailored to your specific needs.</p>
               </div>
               <div className="bg-black p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Custom FPV Solutions</h3>
@@ -271,7 +271,7 @@ export default function Component() {
           </div>
           <div className="flex items-center space-x-2">
             <Phone className="h-5 w-5 text-orange-500" />
-            <span className="text-white">502-724-0878</span>
+            <span className="text-orange-500">502-724-0878</span>
           </div>
           <div className="flex items-center space-x-2">
             <Linkedin className="h-5 w-5 text-orange-500" />
